@@ -8,8 +8,8 @@ function fibonacciAdder(startingArray) {
 	for (let i=5; i<15; i++){
 		let newIndexValue = startingArray[i] + startingArray[i-1];
 		startingArray.push(newIndexValue);
-		console.log(startingArray);
 	}
+		console.log(startingArray);
 }
 
 let fibonacciArray = [1, 1, 2, 3, 5, 8];
